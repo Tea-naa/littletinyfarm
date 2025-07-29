@@ -15,21 +15,28 @@ function App() {
         </div>
       </nav>
 
-      {/* 🌄 HERO SECTION */}
-      <section id="home" className="hero">
-        <h1>Welcome to Little Tiny Farm 🐐</h1>
-        <p>A peaceful place to unwind, connect with animals, and let go.</p>
-      </section>
+      
+    {/* 🌄 HERO SECTION */}
+<section id="home" className="hero">
+  <div className="hero-text">
+    <h1>Welcome to Little Tiny Farm 🐐</h1>
+    <p>
+      A cozy space where goats snack on crackers, pigs snooze in hay,
+      and visitors find peace with animals who feel like family.
+    </p>
+  </div>
+</section>
+
 
       {/* 🐾 MEET THE ANIMALS */}
       <section id="animals" className="section">
   <h2>Meet the Animals</h2>
   <div className="animal-grid">
-    <AnimalCard name="Biscuit the Goat" image="https://images.unsplash.com/photo-1590080876811-c0c5ee9648b8" />
-    <AnimalCard name="Daisy the Pig" image="https://images.unsplash.com/photo-1599669454699-6ba71f7af743" />
-    <AnimalCard name="Waddles the Duck" image="https://images.unsplash.com/photo-1599276232551-0c8421f934a7" />
-    <AnimalCard name="Moose the Dog" image="https://images.unsplash.com/photo-1601758174621-00100b8d630e" />
-    <AnimalCard name="Mittens the Cat" image="https://images.unsplash.com/photo-1559239115-ce3eb7cb87ea" />
+    <AnimalCard name="Tina the Goat" image="https://images.unsplash.com/photo-1590080876811-c0c5ee9648b8" />
+    <AnimalCard name="xxxx the Pig" image="https://images.unsplash.com/photo-1599669454699-6ba71f7af743" />
+    <AnimalCard name="xxx the Duck" image="https://images.unsplash.com/photo-1599276232551-0c8421f934a7" />
+    <AnimalCard name="Princess the Dog" image="https://images.unsplash.com/photo-1601758174621-00100b8d630e" />
+    <AnimalCard name="Pink Tea the Cat" image="https://images.unsplash.com/photo-1559239115-ce3eb7cb87ea" />
   </div>
 </section>
 
